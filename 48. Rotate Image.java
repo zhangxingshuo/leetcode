@@ -1,20 +1,6 @@
 public class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
-        // int[][] newMatrix = new int[n][n];
-        // for (int i = 0; i < n; ++i) {
-        //     for (int j = 0; j < n - i; ++j) {
-        //         int temp = matrix[i][j];
-        //         matrix[i][j] = matrix[n-j-1][i];
-        //         matrix[n-j-1][i] = temp;
-        //     }
-        // }
-        // for (int i = 0; i < n; ++i) {
-        //     for (int j = 0; j < n; ++j) {
-        //         matrix[i][j] = newMatrix[i][j];
-        //     }
-        // }
-        
         // transpose
         for (int i = 0; i < n; ++i) {
             for (int j = i; j < n; ++j) {
@@ -31,5 +17,20 @@ public class Solution {
                 matrix[i][n-j-1] = temp;
             }
         }
+        
+        // O(n*n) space solution
+        // int[][] newMatrix = new int[n][n];
+        // for (int i = 0; i < n; ++i) {
+        //     for (int j = 0; j < n - i; ++j) {
+        //         int temp = matrix[i][j];
+        //         matrix[i][j] = matrix[n-j-1][i];
+        //         matrix[n-j-1][i] = temp;
+        //     }
+        // }
+        // for (int i = 0; i < n; ++i) {
+        //     for (int j = 0; j < n; ++j) {
+        //         matrix[i][j] = newMatrix[i][j];
+        //     }
+        // }
     }
 }
