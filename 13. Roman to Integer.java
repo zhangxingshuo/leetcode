@@ -3,8 +3,12 @@ public class Solution {
         int total = 0;
         for (int i = 0; i < s.length(); ++i) {
             int val = value(s.charAt(i));
+            
+            // last character
             if (i == s.length() - 1) total += val;
+            
             else {
+                // check for special cases of IV, IX, CD, etc.
                 int nextVal = value(s.charAt(i+1));
                 if (nextVal > val) {
                     total += nextVal - val;
