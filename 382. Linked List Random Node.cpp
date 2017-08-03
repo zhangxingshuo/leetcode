@@ -23,6 +23,8 @@ public:
         int result = head_->val;
         ListNode* cur = head_->next;
         int n = 2;
+        // reservoir sampling, every element has k/n probability of replacing k elements in
+        // the reservoir, in this case k = 1
         while (cur != nullptr) {
             if (rand() % n == n - 1) result = cur->val;
             cur = cur->next;
