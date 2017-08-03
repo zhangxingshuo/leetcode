@@ -12,6 +12,7 @@ public class Solution {
         while (cur != null) {
             int curVal = cur.val;
             ListNode n = cur.next;
+            // skip over duplicates
             while (n != null && n.val == curVal)
                 n = n.next;
             cur.next = n;
