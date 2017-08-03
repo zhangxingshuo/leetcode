@@ -1,5 +1,6 @@
 public class Solution {
     public int coinChange(int[] coins, int amount) {
+        // dynamic programming
         int arr[] = new int[amount+1];
         Arrays.fill(arr, amount+1);
         arr[0] = 0;
