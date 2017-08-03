@@ -1,5 +1,6 @@
 public class Solution {
     public int numSquares(int n) {
+        // dynamic programming
         int[] arr = new int[n+1];
         Arrays.fill(arr, n+1);
         arr[0] = 0;
