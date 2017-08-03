@@ -3,6 +3,7 @@ public class Solution {
         int m = board.length;
         int n = board[0].length;
         
+        // count the upper left corner of each ship
         int count = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
