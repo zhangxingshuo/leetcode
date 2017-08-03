@@ -1,5 +1,6 @@
 public class Solution {
     public int countPrimes(int n) {
+        // sieve of eratosthenes
         boolean[] composite = new boolean[n];
         int count = 0;
         for (int m = 2; m < n; m++) {
