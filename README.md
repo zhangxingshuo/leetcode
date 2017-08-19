@@ -3,23 +3,26 @@ Solutions to Leetcode problems written in Java, Python, C++, and SQL.
 
 # Interesting problems
 
-## 72. Edit Distance
-The quintessential dynamic programming problem
+## Data Structures
+226. Invert Binary Tree
+383. Ransom Note
 
-## 137. Single Number II
-Bit operations and the power of XOR
+## Algorithms
+48. Rotate Image
+102. Binary Tree Level Order Traversal
+442. Find All Duplicates in Array
 
-## 226. Invert Binary Tree
-Recursion, and also because Max Howell could not do it
+## Bitwise operations
+137. Single Number II
+231. Power of Two
+371. Sum of Two Integers
 
-## 292. Nim Game
-The usefulness of discrete mathematics
+## Dynamic Programming
+72. Edit Distance
+279. Perfect Squares
+332. Coin Change
 
-## 383. Ransom Note
-Hashing is very powerful
-
-## 371. Sum of Two Integers
-Understanding of arithmetic at a bitwise level
-
-## 442. Find All Duplicates in Array
-Creative approach with a space constraint
+## Mathematics
+70. Climbing Stairs
+292. Nim Game
+382. Linked List Random Node
