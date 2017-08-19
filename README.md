@@ -19,7 +19,7 @@ The usefulness of discrete mathematics
 Hashing is very powerful
 
 ## 371. Sum of Two Integers
-Creative approach to problem given extreme constraints
+Understanding of arithmetic at a bitwise level
 
 ## 442. Find All Duplicates in Array
-Another creative approach with a space constraint
+Creative approach with a space constraint
