@@ -1,5 +1,5 @@
 # Leetcode solutions
-Solutions to Leetcode problems written in Java, Python, C++, and SQL.
+Solutions to Leetcode problems written in Java, Python, C++, SQL, and Bash.
 
 # Interesting problems
 
